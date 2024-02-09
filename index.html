@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Simple Valentine website </title>
+    <link rel="stylesheet" href="Valentine.css">
+    <script src="Valentine.js"></script>
+</head>
+
+<body>
+    <!-- For the first side -->
+    <div id="intro">
+        <h1>Will You be my Valentine?</h1>
+        <div id="first-box">
+            <img src="Images/16551076_3700_10_05-removebg-preview.png" />
+        </div>
+
+        <div class="buttons">
+            <button type="button" onclick="Yes()" id="yesBtn">Yes</button>
+            <button type="button" onclick="No()" id="noBtn">No</button>
+        </div>
+    </div>
+
+    <!-- The second part, Yes part -->
+    <div id="yes-container" style="display: none;">
+        <h1>I Love you Babe!</h1>
+        <div id="accepted">
+            <img src="Images/12117354_4885083-removebg-preview.png" />
+        </div>
+    </div>
+
+    <!-- The no button -->
+    <div id="no-container" style="display: none;">
+        <h1>Will You Reconsider?</h1>
+        <div class="no-section">
+            <img class="sad-cat" src="Images/feem_d356085c4ebfd_IMG-20240208-WA0080-removebg-preview.png" />
+        </div>
+
+        <div class="buttons">
+            <button type="button" onclick="Yes()" id="yesBtnNoContainer">Yes</button>
+            <button type="button" onclick="lastNo()" id="noBtnNoContainer">No</button>
+        </div>
+    </div>
+
+    <!-- The second No container -->
+    <div id="sec-no-container" style="display: none;">
+        <h1>Why me!! </h1>
+        <div class="no-section">
+            <img class="sad-cat" src="Images/feem_d356085c4ebfd_IMG-20240208-WA0081-removebg-preview.png" />
+        </div>
+    </div>
+
+</body>
+
+</html>
